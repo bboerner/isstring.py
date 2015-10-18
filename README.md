@@ -31,7 +31,7 @@ Install
 
 [pypi.python.org](https://pypi.python.org): `pip install isstring`
 
-[download](https://github.com/russianidiot/isstring.py/archive/master.zip): `python setup.py install` or `setup.py/.setup.py develop.command` 
+[download](https://github.com/russianidiot/isstring.py/archive/master.zip): `python setup.py install` or `setup/.setup.py develop.command` 
 
 	
 
