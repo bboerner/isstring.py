@@ -4,9 +4,5 @@ from isstring import *
 def func():
 	pass
 
-def main():
-	bool = isstring(func) # False
-	print(bool)
-
-if __name__=="__main__":
-	main()
+bool = isstring(func) # False
+print(bool)
