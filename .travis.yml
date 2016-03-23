@@ -1,7 +1,7 @@
 language: python
 cache:
   directories: 
-    - $HOME/.pip-cache
+    - $HOME/.cache/pip
 python:
   - "2.6"
   - "2.7"
@@ -46,7 +46,7 @@ before_install:
 install:
   - set -e # Exit immediately if a subshell command exits with a non-zero status (man sh).
   - '[ -f requirements.txt ] && cat requirements.txt;:'
-  - '[ -f requirements.txt ] && pip install -r requirements.txt --download-cache $HOME/.pip-cache;:'
+  - '[ -f requirements.txt ] && pip install -r requirements.txt;:'
   - python setup.py install
   - pip install coveralls
 
@@ -65,7 +65,6 @@ after_script:
 
 after_failure:
   - pwd
-  - pip list
 
 # Calculate coverage
 #after_success:
