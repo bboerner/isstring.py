@@ -139,7 +139,7 @@ def main():
         if arg in kwargs and kwargs[arg] is not None:
             v = kwargs[arg]
             if v!=[] and v!="" and v!={} and v!=False:
-                print("setuptools arg = %s" % arg)
+                sys.stderr.write("setuptools arg = %s" % arg)
                 setuptools=True
 
     if sys.argv[-1]=="--manifest-only": # distutils only
@@ -147,14 +147,18 @@ def main():
 
     if setuptools:
         try:
-            print("from setuptools import setup")
+            if "--" in sys.argv[-1]:
+                sys.stderr.write("from setuptools import setup")
             from setuptools import setup
         except ImpsrtError:
-            print("setuptools not installed") # use distutils
-            print("from distutils.core import setup")
+            if "--" in sys.argv[-1]:
+                sys.stderr.write("setuptools not installed") # use distutils
+            if "--" in sys.argv[-1]:
+                sys.stderr.write("from distutils.core import setup")
             from distutils.core import setup # default
     else:
-        print("from distutils.core import setup")
+        if "--" in sys.argv[-1]:
+            sys.stderr.write("from distutils.core import setup")
         from distutils.core import setup # default
 
     if len(sys.argv)==1: return
