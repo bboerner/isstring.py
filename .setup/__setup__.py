@@ -146,7 +146,6 @@ def main():
         setuptools=False
 
     if setuptools:
-        kwargs["setup_requires"] = kwargs["install_requires"]
         try:
             if sys.argv[-1]=="install":
                 print("from setuptools import setup")
