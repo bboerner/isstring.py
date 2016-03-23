@@ -42,7 +42,6 @@ before_install:
 
 install:
   - set -e # Exit immediately if a subshell command exits with a non-zero status (man sh).
-  - pip install setuptools
   - python setup.py install # requirements.txt NOT INSTALLED!
   #- pip install -r requirements.txt
   - pip install coveralls
