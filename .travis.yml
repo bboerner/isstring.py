@@ -45,6 +45,8 @@ install:
   - set -e # Exit immediately if a subshell command exits with a non-zero status (man sh).
   - '[ -f requirements.txt ] && cat requirements.txt;:'
   - '[ -f requirements.txt ] && pip install -r requirements.txt;:'
+  - which pip
+  - 'cat "$(which pip)"'
   - python setup.py install
   - pip install coveralls
 
