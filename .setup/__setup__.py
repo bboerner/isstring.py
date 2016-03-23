@@ -139,7 +139,6 @@ def main():
         if arg in kwargs and kwargs[arg] is not None:
             v = kwargs[arg]
             if v!=[] and v!="" and v!={} and v!=False:
-                # sys.stderr.write("setuptools arg = %s" % arg)
                 setuptools=True
 
     if sys.argv[-1]=="--manifest-only": # distutils only
