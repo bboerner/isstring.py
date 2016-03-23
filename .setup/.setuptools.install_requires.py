@@ -10,8 +10,7 @@ __all__=["install_requires"]
 import os
 from os.path import *
 
-repo = dirname(dirname(__file__))
-if not repo: repo="."
+repo = abspath(dirname(dirname(__file__)))
 
 install_requires = []
 for name in ["requirements.txt","requires.txt","install_requires.txt"]:

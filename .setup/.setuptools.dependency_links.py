@@ -3,8 +3,7 @@
 __all__=["dependency_links"]
 from os.path import *
 
-repo = dirname(dirname(__file__))
-if not repo: repo="."
+repo = abspath(dirname(dirname(__file__)))
 
 lines=[]
 for name in ["dependency_links.txt","dependency.txt"]:

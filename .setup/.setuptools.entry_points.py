@@ -3,8 +3,7 @@
 __all__=["entry_points"]
 from os.path import *
 
-repo = dirname(dirname(__file__))
-if not repo: repo="."
+repo = abspath(dirname(dirname(__file__)))
 
 # ./entry_points.txt
 path = join(repo,"entry_points.txt")

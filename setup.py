@@ -4,8 +4,7 @@ __all__ = []
 import os, sys
 from os.path import *
 
-repo = dirname(__file__)
-if not repo or repo==".": repo=os.getcwd()
+repo = abspath(dirname(__file__))
 
 # repo/setup.py 	- this file
 # repo/.setup/*.py 	- python files imported by setup.py

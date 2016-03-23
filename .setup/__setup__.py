@@ -78,10 +78,9 @@ def update(**kwargs):
 
 def main():
     sys.modules["__main__"].__all__ = []
-    dir = dirname(dirname(__file__))
-    if not dir or dir==".": dir=os.getcwd()
-    os.chdir(dir)
-    sys.path+=[dir,dirname(__file__)]
+    repo = abspath(dirname(dirname(__file__)))
+    os.chdir(repo)
+    sys.path+=[abspath(dirname(__file__))]
 
     files = pyfiles(dirname(__file__))
     # RuntimeWarning: Parent module 'modname' not found while handling absolute import
