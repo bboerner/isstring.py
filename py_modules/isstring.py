@@ -13,12 +13,13 @@ def isstring(object):
         return False
 
 if __name__=="__main__":
-    print(isstring(0)) # False
-    print(isstring([])) # False
-    print(isstring(type)) # False
-    print(isstring("str")) # True
-    print(isstring(b"bytes")) # True
-    try:
-        print(isstring(u"unicode")) # True
-    except NameError: # python 3
-        pass
+    pass
+    #print(isstring(0)) # False
+    #print(isstring([])) # False
+    #print(isstring(type)) # False
+    #print(isstring("str")) # True
+    #print(isstring(b"bytes")) # True
+    #try:
+        #print(isstring(u"unicode")) # True
+    #except NameError: # python 3
+       # pass
