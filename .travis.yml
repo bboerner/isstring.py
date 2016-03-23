@@ -62,6 +62,7 @@ after_script:
 
 after_failure:
   - pwd
+  - pip list
 
 # Calculate coverage
 #after_success:
