@@ -144,12 +144,17 @@ def main():
     if sys.argv[-1]=="--manifest-only": # distutils only
         setuptools=False
 
-    from distutils.core import setup # default
     if setuptools:
         try:
             from setuptools import setup
-        except ImportError:
+        except ImpsrtError:
             print("setuptools not installed") # use distutils
+            print("from distutils.core import setup")
+            from distutils.core import setup # default
+    else:
+        print("from distutils.core import setup")
+        from distutils.core import setup # default
+
     if len(sys.argv)==1: return
     setup(name=name,**kwargs)
 
