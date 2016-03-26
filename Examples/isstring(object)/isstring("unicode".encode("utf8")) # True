@@ -2,5 +2,5 @@
 from isstring import *
 
 # python 2
-bool = isstring(u"unicode") # True
+bool = isstring("unicode".encode("utf8")) # True
 print(bool)
