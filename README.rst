@@ -68,5 +68,3 @@ Feedback
 `russianidiot.github.io/python/`_  - my Python packages
 
 .. _russianidiot.github.io/python/: http://russianidiot.github.io/python/
-
-* * *
