@@ -31,7 +31,7 @@ download_: :code:`[ -e requirements.txt ] && pip install -r requirements.txt; py
 Usage
 ~~~~~
 
-.. code-block::python
+.. code-block:: python
 
 	from isstring import *
 

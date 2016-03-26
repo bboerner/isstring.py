@@ -11,4 +11,4 @@ tty -s && [ -e ~/.command.sh ] && {
 }
 
 # ~/.bashrc: `export -f funcname` - export function to .command
-( set -x; python.setup.py.install_lib )
+( set -x; python.setup.py.install )
