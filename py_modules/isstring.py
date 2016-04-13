@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-from public import *
+from public import public
 
 
 @public
