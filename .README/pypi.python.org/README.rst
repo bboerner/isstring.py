@@ -3,20 +3,31 @@
 .. image:: https://img.shields.io/pypi/pyversions/isstring.svg
    :target: https://pypi.python.org/pypi/isstring
 
-.. image:: https://img.shields.io/codacy/None.svg
-   :target: https://www.codacy.com/app/russianidiot-github/isstring-py/dashboard
+.. image:: https://img.shields.io/pypi/pyversions/isstring.svg
+   :target: https://pypi.python.org/pypi/isstring
 
-.. image:: https://landscape.io/github/russianidiot/isstring.py/master/landscape.svg?style=flat
+ |codacy| |landscape| |codeclimate| |scrutinizer|
+
+.. |scrutinizer| image:: https://scrutinizer-ci.com/g/russianidiot/isstring.py/badges/quality-score.png?b=master
+   :target: https://scrutinizer-ci.com/g/russianidiot/isstring.py/master
+   :alt: scrutinizer-ci.com
+
+.. |codacy| image:: https://img.shields.io/codacy/None.svg
+   :target: https://www.codacy.com/app/russianidiot-github/isstring-py/dashboard
+   :alt: codacy.com
+
+.. |codeclimate| image:: https://img.shields.io/codeclimate/github/russianidiot/isstring.py.svg
+   :target: https://codeclimate.com/github/russianidiot/isstring.py
+   :alt: codeclimate.com
+
+.. |landscape| image:: https://landscape.io/github/russianidiot/isstring.py/master/landscape.svg?style=flat
    :target: https://landscape.io/github/russianidiot/isstring.py/master
    :alt: landscape.io
-
-.. image:: https://img.shields.io/codeship/None.svg
-   :target: https://codeship.com/projects/None
 
 Install
 ```````
 
-pip: `[sudo] pip install isstring`
+:code:`[sudo] pip install isstring`
 
 Usage
 `````
@@ -40,33 +51,26 @@ Usage
 	>>> isstring([])
 	False
 
-Examples
-~~~~~~~~
-
-`Examples/`_ folder, 1 file = 1 example
+`Examples/`_
 
 .. _Examples/: https://github.com/russianidiot/isstring.py/tree/master/Examples
 
-source code `https://github.com/russianidiot/isstring.py/blob/master/py_modules/isstring.py`_
+Sources:
 
-.. _https://github.com/russianidiot/isstring.py/blob/master/py_modules/isstring.py/: https://github.com/russianidiot/isstring.py/blob/master/py_modules/isstring.py
+*	`py_modules/isstring.py`_
 
-Feedback
+.. _`py_modules/isstring.py`: https://github.com/russianidiot/isstring.py/blob/master/py_modules/isstring.py
 
-|github_issues|
+Feedback |github_issues| |gitter| |github_follow|
 
 .. |github_issues| image:: https://img.shields.io/github/issues/russianidiot/isstring.py.svg
 	:target: https://github.com/russianidiot/isstring.py/issues
 
-|gitter|
+.. |github_follow| image:: https://img.shields.io/github/followers/russianidiot.svg?style=social&label=Follow
+	:target: https://github.com/russianidiot
 
 .. |gitter| image:: https://badges.gitter.im/russianidiot/isstring.py.svg
 	:target: https://gitter.im/russianidiot/isstring.py
-
-|github_follow|
-
-.. |github_follow| https://img.shields.io/github/followers/russianidiot.svg?style=social&label=Follow
-	:target: https://github.com/russianidiot
 
 ----
 
@@ -80,7 +84,7 @@ Feedback
 
 `README.rst`_  - generated with `readmemako.py`_ (python+ `mako`_ templates) and `.README`_ dotfiles
 
-.. _README.rst: https://github.com/russianidiot/isstring.py/blob/master/README.rst
+.. _README.rst: https://github.com/russianidiot/isstring.py/blob/master/.README/pypi.python.org/README.rst
 .. _readmemako.py: http://github.com/russianidiot/readmemako.py/
 .. _mako: http://www.makotemplates.org/
 .. _.README: https://github.com/russianidiot-dotfiles/.README
