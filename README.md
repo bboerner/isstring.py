@@ -1,8 +1,9 @@
 ![python](https://img.shields.io/badge/language-python-blue.svg)[![PyPI](https://img.shields.io/pypi/pyversions/isstring.svg)](https://pypi.python.org/pypi/isstring)
-[![landscape.io](https://landscape.io/github/russianidiot/isstring.py/master/landscape.svg?style=flat)](https://landscape.io/github/russianidiot/isstring.py/master)[![Code Climate](https://img.shields.io/codeclimate/github/russianidiot/isstring.py.svg)](https://codeclimate.com/github/russianidiot/isstring.py)
+
+[![codacy.com](https://img.shields.io/codacy/df7b8ed5d8fd4c13a25c1ad59cb6f5af.svg)](https://www.codacy.com/app/russianidiot-github/isstring-py/dashboard)[![landscape.io](https://landscape.io/github/russianidiot/isstring.py/master/landscape.svg?style=flat)](https://landscape.io/github/russianidiot/isstring.py/master)[![Code Climate](https://img.shields.io/codeclimate/github/russianidiot/isstring.py.svg)](https://codeclimate.com/github/russianidiot/isstring.py)
 [![Code Health](https://scrutinizer-ci.com/g/russianidiot/isstring.py/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/russianidiot/isstring.py)
 
-[![Build Status](https://travis-ci.org/russianidiot/isstring.py.svg?branch=master)](https://travis-ci.org/russianidiot/isstring.py)[![drone.io](https://drone.io/github.com/russianidiot/isstring.py/status.png)](https://drone.io/github.com/russianidiot/isstring.py)[![codeship](https://img.shields.io/codeship/792a81a0-e32a-0133-a480-6a03a60c75f6.svg)](https://codeship.com/projects/145913)[![Wercker](https://img.shields.io/wercker/ci/russianidiot/isstring.py.svg)](https://app.wercker.com/#applications/None/)
+[![Build Status](https://travis-ci.org/russianidiot/isstring.py.svg?branch=master)](https://travis-ci.org/russianidiot/isstring.py)[![drone.io](https://drone.io/github.com/russianidiot/isstring.py/status.png)](https://drone.io/github.com/russianidiot/isstring.py)[![Wercker](https://img.shields.io/wercker/ci/russianidiot/isstring.py.svg)](https://app.wercker.com/#applications/None/)
 
 [![PyPI](https://img.shields.io/pypi/v/isstring.svg)](https://pypi.python.org/pypi/isstring)
 [![PyPI](https://img.shields.io/pypi/dm/isstring.svg)](https://pypi.python.org/pypi/isstring)
@@ -20,25 +21,29 @@ pip:
 #### Usage
 
 ```python
-	from isstring import *
+>>> from isstring import isstring
 
-	>>> isstring("string")
-	True
-
-	>>> isstring(u"unicode")
-	True
-
-	>>> isstring(b"bytes")
-	True
-
-	>>> isstring(0)
-	False
-
-	>>> isstring([])
-	False
+>>> isstring(obj)
 ```
 
-[Examples/](https://github.com/russianidiot/isstring.py/tree/master/Examples)
+#### Example
+
+```python
+>>> isstring("string")
+True
+
+>>> isstring(u"unicode")
+True
+
+>>> isstring(b"bytes")
+True
+
+>>> isstring(0)
+False
+
+>>> isstring([])
+False
+```
 
 Sources:
 *	[py_modules/isstring.py](https://github.com/russianidiot/isstring.py/blob/master/py_modules/isstring.py)

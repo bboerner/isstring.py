@@ -3,16 +3,13 @@
 .. image:: https://img.shields.io/pypi/pyversions/isstring.svg
    :target: https://pypi.python.org/pypi/isstring
 
-.. image:: https://img.shields.io/pypi/pyversions/isstring.svg
-   :target: https://pypi.python.org/pypi/isstring
-
- |codacy| |landscape| |codeclimate| |scrutinizer|
+|codacy| |landscape| |codeclimate| |scrutinizer|
 
 .. |scrutinizer| image:: https://scrutinizer-ci.com/g/russianidiot/isstring.py/badges/quality-score.png?b=master
    :target: https://scrutinizer-ci.com/g/russianidiot/isstring.py/master
    :alt: scrutinizer-ci.com
 
-.. |codacy| image:: https://img.shields.io/codacy/None.svg
+.. |codacy| image:: https://img.shields.io/codacy/df7b8ed5d8fd4c13a25c1ad59cb6f5af.svg
    :target: https://www.codacy.com/app/russianidiot-github/isstring-py/dashboard
    :alt: codacy.com
 
@@ -32,28 +29,31 @@ Install
 Usage
 `````
 
-.. code-block:: python
+.. code:: python
+	
+	>>> from isstring import isstring
+	
+	>>> isstring(obj)
 
-	from isstring import *
+Example
+```````
 
+.. code:: python
+	
 	>>> isstring("string")
 	True
-
+	
 	>>> isstring(u"unicode")
 	True
-
+	
 	>>> isstring(b"bytes")
 	True
-
+	
 	>>> isstring(0)
 	False
-
+	
 	>>> isstring([])
 	False
-
-`Examples/`_
-
-.. _Examples/: https://github.com/russianidiot/isstring.py/tree/master/Examples
 
 Sources:
 
