@@ -55,6 +55,10 @@ Example
 	>>> isstring([])
 	False
 
+`Examples/`_
+
+.. _Examples/: https://github.com/russianidiot/isstring.py/tree/master/Examples
+
 Sources:
 
 *	`py_modules/isstring.py`_
