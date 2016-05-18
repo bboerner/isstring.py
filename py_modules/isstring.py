@@ -10,5 +10,6 @@ def isstring(obj):
         return False
     except ValueError:
         return True
-    except:
+    except TypeError:
         return False
+
