@@ -3,7 +3,7 @@
 [![codacy.com](https://img.shields.io/codacy/df7b8ed5d8fd4c13a25c1ad59cb6f5af.svg)](https://www.codacy.com/app/russianidiot-github/isstring-py/dashboard)[![landscape.io](https://landscape.io/github/russianidiot/isstring.py/master/landscape.svg?style=flat)](https://landscape.io/github/russianidiot/isstring.py/master)[![Code Climate](https://img.shields.io/codeclimate/github/russianidiot/isstring.py.svg)](https://codeclimate.com/github/russianidiot/isstring.py)
 [![Code Health](https://scrutinizer-ci.com/g/russianidiot/isstring.py/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/russianidiot/isstring.py)
 
-[![Build Status](https://travis-ci.org/russianidiot/isstring.py.svg?branch=master)](https://travis-ci.org/russianidiot/isstring.py)[![drone.io](https://drone.io/github.com/russianidiot/isstring.py/status.png)](https://drone.io/github.com/russianidiot/isstring.py)[![Wercker](https://img.shields.io/wercker/ci/russianidiot/isstring.py.svg)](https://app.wercker.com/#applications/570bf4ea3f1a891374047082/)
+[![Build Status](https://travis-ci.org/russianidiot/isstring.py.svg?branch=master)](https://travis-ci.org/russianidiot/isstring.py)[![drone.io](https://drone.io/github.com/russianidiot/isstring.py/status.png)](https://drone.io/github.com/russianidiot/isstring.py)[![Wercker](https://app.wercker.com/status/262d9d56cad45014a8d3ef1ca9ad10ca/s/master)](https://app.wercker.com/#applications/570bf4ea3f1a891374047082/)
 [![codecov.io](https://codecov.io/github/russianidiot/isstring.py/coverage.svg?branch=master)](https://codecov.io/github/russianidiot/isstring.py?branch=master)
 
 [![PyPI](https://img.shields.io/pypi/v/isstring.svg)](https://pypi.python.org/pypi/isstring)
