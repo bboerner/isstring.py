@@ -1,5 +1,5 @@
 #!/usr/bin/env python
 from isstring import *
 
-bool = isstring({}) # False
+bool = isstring({})  # False
 print(bool)
