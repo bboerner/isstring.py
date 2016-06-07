@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-from isstring import *
+from isstring import isstring
 
-bool = isstring({})  # False
-print(bool)
+r = isstring({})  # False
+print(r)
