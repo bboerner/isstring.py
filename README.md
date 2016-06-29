@@ -1,4 +1,6 @@
-![python](https://img.shields.io/badge/language-python-blue.svg)[![PyPI](https://img.shields.io/pypi/pyversions/isstring.svg)](https://pypi.python.org/pypi/isstring)
+![python](https://img.shields.io/badge/language-python-blue.svg)
+
+[![PyPI](https://img.shields.io/pypi/pyversions/isstring.svg)](https://pypi.python.org/pypi/isstring)[![PyPI](https://img.shields.io/pypi/v/isstring.svg)](https://pypi.python.org/pypi/isstring)
 
 [![codacy.com](https://api.codacy.com/project/badge/Grade/df7b8ed5d8fd4c13a25c1ad59cb6f5af)](https://www.codacy.com/app/russianidiot-github/isstring-py/dashboard)
 [![landscape.io](https://landscape.io/github/russianidiot/isstring.py/master/landscape.svg?style=flat)](https://landscape.io/github/russianidiot/isstring.py)
@@ -12,10 +14,6 @@
 [![shippable.com](https://api.shippable.com/projects/57068cbb2a8192902e1bbbca/badge?branch=master)](https://app.shippable.com/projects/57068cbb2a8192902e1bbbca)
 [![travis-ci.org](https://travis-ci.org/russianidiot/isstring.py.svg)](https://travis-ci.org/russianidiot/isstring.py)
 [![wercker.com](https://app.wercker.com/status/262d9d56cad45014a8d3ef1ca9ad10ca/s/master)](https://app.wercker.com/#applications/570bf4ea3f1a891374047082)
-
-[![PyPI](https://img.shields.io/pypi/v/isstring.svg)](https://pypi.python.org/pypi/isstring)
-[![PyPI](https://img.shields.io/pypi/dm/isstring.svg)](https://pypi.python.org/pypi/isstring)
-[![PyPI](https://img.shields.io/pypi/dd/isstring.svg)](https://pypi.python.org/pypi/isstring)
 
 <p align="center">
     <b>isstring(object) - True if object of string type. python2 and python3 compatible</b>
