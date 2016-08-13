@@ -1,25 +1,4 @@
-.. image:: https://img.shields.io/badge/language-python-blue.svg
-
-.. image:: https://img.shields.io/pypi/pyversions/isstring.svg
-   :target: https://pypi.python.org/pypi/isstring
-
-|codacy| |landscape| |codeclimate| |scrutinizer|
-
-.. |scrutinizer| image:: https://scrutinizer-ci.com/g/russianidiot/isstring.py/badges/quality-score.png?b=master
-   :target: https://scrutinizer-ci.com/g/russianidiot/isstring.py/
-   :alt: scrutinizer-ci.com
-
-.. |codacy| image:: https://api.codacy.com/project/badge/Grade/df7b8ed5d8fd4c13a25c1ad59cb6f5af
-   :target: https://www.codacy.com/app/russianidiot-github/isstring-py/dashboard
-   :alt: codacy.com
-
-.. |codeclimate| image:: https://codeclimate.com/github/russianidiot/isstring.py/badges/gpa.svg
-   :target: https://codeclimate.com/github/russianidiot/isstring.py
-   :alt: codeclimate.com
-
-.. |landscape| image:: https://landscape.io/github/russianidiot/isstring.py/master/landscape.svg?style=flat
-   :target: https://landscape.io/github/russianidiot/isstring.py/master/landscape.svg?style=flat
-   :alt: landscape.io
+.. README generated with readmemako.py (github.com/russianidiot/readme-mako.py) and .README dotfiles (github.com/russianidiot-dotfiles/.README)
 
 Install
 ```````
@@ -30,7 +9,7 @@ Usage
 `````
 
 .. code:: python
-	
+
 	>>> from isstring import isstring
 	
 	>>> isstring(obj)
@@ -39,7 +18,7 @@ Example
 ```````
 
 .. code:: python
-	
+
 	>>> isstring("string")
 	True
 	
@@ -59,11 +38,8 @@ Example
 
 .. _Examples/: https://github.com/russianidiot/isstring.py/tree/master/Examples
 
-Sources:
-
-*	`py_modules/isstring.py`_
-
-.. _`py_modules/isstring.py`: https://github.com/russianidiot/isstring.py/blob/master/py_modules/isstring.py
+TODO
+````
 
 Feedback |github_issues| |gitter| |github_follow|
 
@@ -85,10 +61,3 @@ Feedback |github_issues| |gitter| |github_follow|
 `russianidiot.github.io/cli/`_  - command line scripts
 
 .. _russianidiot.github.io/cli/: http://russianidiot.github.io/cli/
-
-`README.rst`_  - generated with `readmemako.py`_ (python+ `mako`_ templates) and `.README`_ dotfiles
-
-.. _README.rst: https://github.com/russianidiot/isstring.py/blob/master/README.rst
-.. _readmemako.py: http://github.com/russianidiot/readmemako.py/
-.. _mako: http://www.makotemplates.org/
-.. _.README: https://github.com/russianidiot-dotfiles/.README

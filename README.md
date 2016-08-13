@@ -1,5 +1,8 @@
-![python](https://img.shields.io/badge/language-python-blue.svg)
+<!--
+README generated with readmemako.py (github.com/russianidiot/readme-mako.py) and .README dotfiles (github.com/russianidiot-dotfiles/.README)
+-->
 
+![python](https://img.shields.io/badge/language-python-blue.svg)
 [![PyPI](https://img.shields.io/pypi/pyversions/isstring.svg)](https://pypi.python.org/pypi/isstring)[![PyPI](https://img.shields.io/pypi/v/isstring.svg)](https://pypi.python.org/pypi/isstring)
 
 [![codacy.com](https://api.codacy.com/project/badge/Grade/df7b8ed5d8fd4c13a25c1ad59cb6f5af)](https://www.codacy.com/app/russianidiot-github/isstring-py/dashboard)
@@ -11,8 +14,8 @@
 [![drone.io](https://drone.io/github.com/russianidiot/isstring.py/status.png)](https://drone.io/github.com/russianidiot/isstring.py)
 [![scrutinizer-ci.com](https://scrutinizer-ci.com/g/russianidiot/isstring.py/badges/build.png?b=master)](https://scrutinizer-ci.com/g/russianidiot/isstring.py/)
 [![semaphoreci.com](https://semaphoreci.com/api/v1/russianidiot/isstring-py/branches/master/shields_badge.svg)](https://semaphoreci.com/russianidiot/isstring-py)
-[![shippable.com](https://api.shippable.com/projects/57068cbb2a8192902e1bbbca/badge?branch=master)](https://app.shippable.com/projects/57068cbb2a8192902e1bbbca)
-[![travis-ci.org](https://travis-ci.org/russianidiot/isstring.py.svg)](https://travis-ci.org/russianidiot/isstring.py)
+[![shippable.com](https://api.shippable.com/projects/57068cbb2a8192902e1bbbca/badge?branch=master)](https://app.shippable.com/projects/57068cbb2a8192902e1bbbca/status/)
+[![travis-ci.org](https://api.travis-ci.org/russianidiot/isstring.py.svg)](https://travis-ci.org/russianidiot/isstring.py)
 [![wercker.com](https://app.wercker.com/status/262d9d56cad45014a8d3ef1ca9ad10ca/s/master)](https://app.wercker.com/#applications/570bf4ea3f1a891374047082)
 
 <p align="center">
@@ -21,7 +24,6 @@
 
 #### Install
 
-pip: 
 `[sudo] pip install isstring`
 
 #### Usage
@@ -53,8 +55,7 @@ False
 
 [Examples/](https://github.com/russianidiot/isstring.py/tree/master/Examples)
 
-Sources:
-*	[py_modules/isstring.py](https://github.com/russianidiot/isstring.py/blob/master/py_modules/isstring.py)
+#### TODO
 
 Feedback
 [![GitHub issues](https://img.shields.io/github/issues/russianidiot/isstring.py.svg)](https://github.com/russianidiot/isstring.py/issues)
@@ -68,15 +69,10 @@ Feedback
 	<img src="http://russianidiot.github.io/images/python/16.png" />
 </p>
 <p align="center">
-	cli packages <a href="http://russianidiot.github.io/python/">russianidiot.github.io/cli/</a>
+	cli packages <a href="http://russianidiot.github.io/cli/">russianidiot.github.io/cli/</a>
 <img src="http://russianidiot.github.io/images/cli/16.png" />
 </p>
 
 <p align="center">
 	repos list <a href="http://russianidiot.github.io/">russianidiot.github.io</a> <img src="http://russianidiot.github.io/images/star/16.png" />
-</p>
-
-<p align="center">
-	<a href="https://raw.githubusercontent.com/russianidiot/isstring.py/master/README.md">README.md</a> generated with <a href="https://github.com/russianidiot/readme-mako.py">readmemako.py</a> (python+<a href="http://www.makotemplates.org/">mako</a> templates) and <a href="https://github.com/russianidiot-dotfiles/.README">.README</a> dotfiles 
-<img src="http://russianidiot.github.io/images/book/16.png">
 </p>
